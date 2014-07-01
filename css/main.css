@@ -1,0 +1,113 @@
+#wrap {
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header p {
+  font-size: 40px;
+  font-family: "Osaka";
+  color: rgb( 85, 85, 85 );
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  display:inline-block;
+  left: 600px;
+  top: 29px;
+  width: 262px;
+  height: 81px;
+  z-index: 11;
+}
+#header img {
+  position: relative;
+  display:inline-block;
+  padding-bottom: 40px;
+  left: 26px;
+  top: 23px;
+  width: 67px;
+  height: 96px;
+  z-index: 10;
+}
+#addnewbutton button {
+  display:block;
+  border-width: 3.68px;
+  border-color: rgb( 119, 168, 127 );
+  border-style: solid;
+  border-radius: 11px;
+  background-color: rgb( 119, 168, 127 );
+  left: 30px;
+  top: 160px;
+  width: 412.64px;
+  height: 92.64px;
+  font-family: "Arial Black";
+  color: rgb( 255, 255, 255 );
+  line-height: 0.7;
+  font-size: 36px;
+  text-align: center;
+}
+#addnewbutton button:hover {
+  border-color: rgb( 53, 76, 49 );
+  background-color: rgb( 53, 76, 49 );
+}
+#addnew form input[type='text']{
+  display: block;
+  border-width: 4.88px;
+  border-color: rgb( 161, 161, 161 );
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb( 255, 255, 255 );
+  width: 403px;
+  height: 91.24px;
+  font-family: "Arial";
+  font-size:36px;
+}
+#addnew form input:hover{
+  border-color: rgb( 0, 174, 239 );
+}
+#addnew form input:active{
+  border-color: rgb( 0, 174, 239 );
+}
+#addnew form input:focus{
+  border-color: rgb( 0, 174, 239 );
+}
+#addnew form input[type="submit"] {
+  border-width: 3.68px;
+  border-color: rgb( 119, 168, 127 );
+  border-style: solid;
+  border-radius: 11px;
+  background-color: rgb( 119, 168, 127 );
+  width: 412.64px;
+  height: 92.64px;
+  font-family: "Arial Black";
+  font-size: 36px;
+  text-align: center;
+  color: rgb( 255, 255, 255 );
+}
+#addnew form input[type="submit"]:hover{
+  border-color: rgb( 53, 76, 49 );
+  background-color: rgb( 53, 76, 49 );
+}
+#listitem button {
+  background-color: rgb( 161, 161, 161 );
+  position: relative;
+  display:inline-block;
+  width: 300px;
+  float:right;
+  border-radius: 11px;
+  height: 88px;
+  font-family: "Arial Black";
+  font-size: 30px;
+  text-align: center;
+  color: rgb( 255, 255, 255 );
+}
+#listitemcompleted button {
+  font-family: "Arial Black";
+  font-size: 30px;
+  text-align: center;
+  color: rgb( 255, 255, 255 );
+  border-color: rgb( 53, 76, 49 );
+  background-color: rgb( 53, 76, 49 );
+}
+#listitemdeleted button {
+	display:none;
+}
+
