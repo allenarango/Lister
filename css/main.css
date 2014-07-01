@@ -3,12 +3,17 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+#header {
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+}
 #header p {
   font-size: 40px;
   font-family: "Osaka";
   color: rgb( 85, 85, 85 );
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   position: absolute;
   display:inline-block;
   left: 600px;
@@ -29,6 +34,8 @@
 }
 #addnewbutton button {
   display:block;
+  margin-right: auto;
+  margin-left: auto;
   border-width: 3.68px;
   border-color: rgb( 119, 168, 127 );
   border-style: solid;
@@ -43,6 +50,7 @@
   line-height: 0.7;
   font-size: 36px;
   text-align: center;
+  margin-top: 40px;
 }
 #addnewbutton button:hover {
   border-color: rgb( 53, 76, 49 );
@@ -50,6 +58,8 @@
 }
 #addnew form input[type='text']{
   display: block;
+  margin-right: auto;
+  margin-left: auto;
   border-width: 4.88px;
   border-color: rgb( 161, 161, 161 );
   border-style: solid;
@@ -59,6 +69,7 @@
   height: 91.24px;
   font-family: "Arial";
   font-size:36px;
+  margin-top: 40px;
 }
 #addnew form input:hover{
   border-color: rgb( 0, 174, 239 );
@@ -70,6 +81,7 @@
   border-color: rgb( 0, 174, 239 );
 }
 #addnew form input[type="submit"] {
+  display:block;
   border-width: 3.68px;
   border-color: rgb( 119, 168, 127 );
   border-style: solid;
@@ -80,34 +92,45 @@
   font-family: "Arial Black";
   font-size: 36px;
   text-align: center;
-  color: rgb( 255, 255, 255 );
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
 }
 #addnew form input[type="submit"]:hover{
   border-color: rgb( 53, 76, 49 );
   background-color: rgb( 53, 76, 49 );
 }
-#listitem button {
-  background-color: rgb( 161, 161, 161 );
-  position: relative;
-  display:inline-block;
-  width: 300px;
-  float:right;
-  border-radius: 11px;
-  height: 88px;
+li .listitem{
+  background-image: url('../images/list item sprite.png');
+  background-position:20px -107px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-left: 35px;
+  text-align: center;
+  width: 420px;
   font-family: "Arial Black";
   font-size: 30px;
-  text-align: center;
-  color: rgb( 255, 255, 255 );
+  color: rgb(255, 255, 255);
+  height: 80px;
 }
-#listitemcompleted button {
-  font-family: "Arial Black";
-  font-size: 30px;
-  text-align: center;
-  color: rgb( 255, 255, 255 );
-  border-color: rgb( 53, 76, 49 );
-  background-color: rgb( 53, 76, 49 );
+#list h3 {
+  padding-left: 50px;
 }
-#listitemdeleted button {
-	display:none;
+li .listitem:hover{
+  background-position:20px -214px;
+}
+li .listitem:active{
+  background-position:20px 0px;
 }
 
+/* sprites
+#nav li a {background-image:url('../img/image_nav.gif')}
+#nav li a.item1 {background-position:0px 0px}
+#nav li a:hover.item1 {background-position:0px -72px}
+#nav li a.item2 {background-position:0px -143px;}
+#nav li a:hover.item2 {background-position:0px -215px;}
+*/
