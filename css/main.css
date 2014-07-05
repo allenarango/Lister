@@ -57,6 +57,9 @@
   border-color: rgb( 53, 76, 49 );
   background-color: rgb( 53, 76, 49 );
 }
+#addnewform {
+  display:none;
+}
 #addnew form input[type='text']{
   display: block;
   margin-right: auto;
@@ -107,6 +110,7 @@ li .listitem{
   background-image: url('../images/list item sprite.png');
   background-position:20px -107px;
   background-repeat: no-repeat;
+  margin-top:40px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
