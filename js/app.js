@@ -4,7 +4,7 @@ $(document).ready(function() {
      $('#addnewform').show();
   });
   $( "typelistitem" ).on(function() {
-  	$(this).val(function( i, val ) {
+  	$(this).val(function() {
     return val.alert('.val');
   });
   /*
