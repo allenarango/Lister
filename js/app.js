@@ -23,8 +23,12 @@ $(document).ready(function() {
 
   });
 
+  $("#list").on("dblclick", "li", function() { 
+    $('li').remove();
 
-	});
+  });
+
+});
  
 
 
