@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   $("#list").on("click", "li", function() { 
     $('li').removeClass('li .listitem');
-    $("this").addClass("li .listitem:active");
+    $('li').addClass("li .listitem:active");
 
   });
 
@@ -27,6 +27,10 @@ $(document).ready(function() {
     $('li').remove();
 
   });
+
+  $("#list").on( "swiperight", "li", function() {
+    $('li').remove();
+  }); 
 
 });
  
