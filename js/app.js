@@ -6,17 +6,25 @@ $(document).ready(function() {
   });
 
   $( "#formlistitem" ).submit(function( event ) {
-  $('this').click(function() {
-    $('input#typelistitem').val("");
-		$('#list').append('<h3 class="listitem">' + $('input#typelistitem').val() + '</h3>');
-  		event.preventDefault();
-		});	
+    event.preventDefault();
+
+    var item = $('#typelistitem').val();
+
+    $('#typelistitem').val('').focus();
+
+		$('#list').append('<li><h3 class="listitem">' + item + '</h3></li>');
 	
-	});
+  });	
+  
+
+  $("#list").on("click", "li", function() { 
+    $('li').removeClass('li .listitem');
+    $("this").addClass("li .listitem:active");
 
   });
-  /*
-	$('#list').append('<li>'+your stored value variable+'</li>');
-*/
+
+
+	});
+ 
 
 
