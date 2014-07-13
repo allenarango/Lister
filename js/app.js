@@ -19,18 +19,14 @@ $(document).ready(function() {
 
   $("#list").on("click", "li", function() { 
     $('li').removeClass('li .listitem');
-    $('li').addClass("li .listitem:active");
+    $('this').addClass("active");
 
   });
 
-  $("#list").on("dblclick", "li", function() { 
-    $('li').remove();
+  $("#listitem").on("dblclick", "li", function() { 
+    $(this).remove('this');
 
   });
-
-  $("#list").on( "swiperight", "li", function() {
-    $('li').remove();
-  }); 
 
 });
  
