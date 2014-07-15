@@ -107,7 +107,7 @@
   border-color: rgb( 53, 76, 49 );
   background-color: rgb( 53, 76, 49 );
 }
-li .listitem{
+.listitem{
   background-image: url('../images/list item sprite.png');
   background-position:20px -107px;
   background-repeat: no-repeat;
@@ -125,13 +125,13 @@ li .listitem{
 #list h3 {
   padding-left: 50px;
 }
-li .listitem:hover{
+.listitem:hover{
   background-position:20px -214px;
 }
-li .listitem:active, li .active{
+.listitem:active, .listitem.active{
   background-position:20px 0px;
 }
-li .listitem_click{
+.listitem_click{
   background-position:20px 0px;
   border-color: red;
 }

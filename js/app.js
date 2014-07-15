@@ -18,13 +18,12 @@ $(document).ready(function() {
   
 
   $("#list").on("click", "li", function() { 
-    $('li').removeClass('li .listitem');
-    $('this')addClass("active");
+    $(this).find("h3").toggleClass("active");
 
   });
 
-  $("#listitem").on("dblclick", "li", function() { 
-    $(this).remove('this');
+  $("#list").on("dblclick", "li", function() { 
+    $(this).remove();
 
   });
 
