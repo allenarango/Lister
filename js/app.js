@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   $("#list").on("click", "li", function() { 
     $('li').removeClass('li .listitem');
-    $('this').addClass("active");
+    $('this')addClass("active");
 
   });
 
